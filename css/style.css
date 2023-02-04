@@ -104,6 +104,7 @@ header a:hover {
 
 #showcase p {
   font-size: 20px;
+  padding: 0 2rem;
 }
 
 /* Newsletter */
@@ -208,6 +209,16 @@ aside#sidebar .quote textarea {
     padding-bottom: 1rem;
   }
 
+  #showcase .container h1 {
+    margin-top: 5rem;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  #showcase p {
+    font-size: 15px;
+  }
+
   #boxes .container {
     grid-template-columns: 1fr;
   }
@@ -228,6 +239,16 @@ aside#sidebar .quote textarea {
 @media (max-width: 460px) {
   .container {
     width: 90%;
+  }
+
+  #showcase .container h1 {
+    margin-top: 5rem;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  #showcase p {
+    font-size: 12px;
   }
   #newsletter .container form {
     display: flex;
